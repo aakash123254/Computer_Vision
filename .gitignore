@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# VS Code and PyCharm
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+
+# Render or deployment secrets
+*.env
+.env.*
+
+# Cache and temp
+.cache/
+*.bak
+*.tmp
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+# Other data/output files
+*.csv
+*.json
+*.zip
+*.tar.gz
+
+# Notebook output (optional)
+*.nbconvert.ipynb
+
+# Ignore __init__ backup files if any
+*__init__*.bak
+
+# Ignore your own test datasets or output folders (customize as needed)
+datasets/
+outputs/
